@@ -24,6 +24,7 @@ public class NumberGame {
 		while(b) {
 			if(guesses>7) {
 				System.out.println("You used all your 7 guesses \nYou lost the game");
+				System.out.println("The Random number is "+randomNumber);
 				System.out.println("\nTo play this game again enter 1");
 				b=false;
 			}else {
